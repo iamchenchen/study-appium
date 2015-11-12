@@ -9,6 +9,21 @@ I like to open two terminal, 1 for Appium, and 1 for running appium
 /Users/chenchenzheng/github/appium/python-client 
 ![alt tag](https://raw.github.com/iamchenchen/study-appium/master/screenshots/howtouse1.png)
 
+## File Notes
+```python
+def get_desired_capabilities(app):
+    desired_caps = {
+        'deviceName': 'iPhone 6s',
+        'platformName': 'iOS',
+            'platformVersion': '9.1',
+        'udid': 'bc41d7bbe35223441656630117358998015b5c8f',
+        # 'app' : '/Users/chenchenzheng/Desktop/whistler.ipa',
+        'app': PATH('../../apps/' + app),
+        'bundleId':'com.ar-devices.whistler'
+    }
+
+    return desired_caps
+```
 ## Tests
 
 
