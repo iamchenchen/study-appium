@@ -1,0 +1,16 @@
+.DS_Store
+
+*~
+*#
+*._*
+*.log
+*.log.*
+
+*.pyc
+*.egg-info
+README.txt
+
+MANIFEST
+
+build
+dist
