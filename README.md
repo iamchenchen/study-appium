@@ -2,6 +2,14 @@
 My study notes for appium
 
 ## Installation
+Since we are using appium python, we need to install pip
+    ```shell
+    sudo easy_install pip
+   ```
+Install from [PyPi](https://pypi.python.org/pypi), as ['Appium-Python-Client'](https://pypi.python.org/pypi/Appium-Python-Client).
+    ```shell
+    pip install Appium-Python-Client
+    ```
 
 ## How to run appium?
 I like to open two terminal, 1 for Appium, and 1 for running appium
