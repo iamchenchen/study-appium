@@ -10,6 +10,10 @@ Install from [PyPi](https://pypi.python.org/pypi), as ['Appium-Python-Client'](h
 ```shell
 pip install Appium-Python-Client
 ```
+Install Ideviceinstaller
+```shell
+brew install ideviceinstaller
+```
 
 ## How to run appium?
 I like to open two terminal, 1 for Appium, and 1 for running appium
