@@ -8,8 +8,20 @@ sudo easy_install pip
 ```
 Install from [PyPi](https://pypi.python.org/pypi), as ['Appium-Python-Client'](https://pypi.python.org/pypi/Appium-Python-Client).
 ```shell
+sudo chown -R `whoami` /Library/Python/2.7/
 pip install Appium-Python-Client
 ```
+Install xcode command line tool
+1. open xcode
+2. click on xcode on the top left corner navigation bar->Open Developer Tool -> More Developer Tool
+3. Find correct commend-line tool
+4. download and install
+
+Install brew
+```shell
+ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)”
+```
+
 Install Ideviceinstaller
 ```shell
 brew install ideviceinstaller
@@ -41,7 +53,9 @@ def get_desired_capabilities(app):
 ```
 
 ## Tests
-
+1. verify walkthrough
+2. verify facebook login
+3. verify 
 
 ## Notes
 * Read more information here: https://github.com/appium/python-client
