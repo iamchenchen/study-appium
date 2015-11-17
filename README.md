@@ -47,6 +47,6 @@ def get_desired_capabilities(app):
 * Read more information here: https://github.com/appium/python-client
 * if encounter error: Brew doctor says: “Warning: /usr/local/include isn't writable.” 
      * user this: 
-     ```shell
-     sudo chown -R `whoami` /usr/local/
-     ```
+        ```shell
+        sudo chown -R `whoami` /usr/local/
+        ```
