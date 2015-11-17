@@ -55,7 +55,9 @@ def get_desired_capabilities(app):
 ## Tests
 1. verify walkthrough
 2. verify facebook login
-3. verify 
+3. verify digits login
+4. verify if there are five tabs
+5. verify logout will bring app to walkthrough
 
 ## Notes
 * Read more information here: https://github.com/appium/python-client
