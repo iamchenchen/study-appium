@@ -33,6 +33,12 @@ I like to open two terminal, 1 for Appium, and 1 for running appium
 /Users/chenchenzheng/github/appium/python-client 
 ![alt tag](https://raw.github.com/iamchenchen/study-appium/master/screenshots/howtouse1.png)
 
+## How to build a debug version of app?
+
+user commandline like this under your app directory
+```shell
+xcodebuild -workspace whistler.xcworkspace -scheme whistler -configuration Debug -sdk iphonesimulator9.1
+```
 ## File Notes
 # desired_capabilities.py
 This is device configuration file, you need to choose the correct device.  In my example, I'm using a actual device.
