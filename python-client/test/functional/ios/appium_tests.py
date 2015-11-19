@@ -31,7 +31,7 @@ class AppiumTests(unittest.TestCase):
         # desired_caps['noReset'] = 'false'
 
 
-        desired_caps = desired_capabilities.get_desired_capabilities('whistler.ipa')
+        desired_caps = desired_capabilities.get_desired_capabilities('whistler.app')
 
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 

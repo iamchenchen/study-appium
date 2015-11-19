@@ -22,10 +22,10 @@ PATH = lambda p: os.path.abspath(
 
 def get_desired_capabilities(app):
     desired_caps = {
-        'deviceName': 'iPhone 6s',
-        'platformName': 'iOS',
-	    'platformVersion': '9.1',
-        'udid': 'bc41d7bbe35223441656630117358998015b5c8f',
+        'deviceName': 'iPhone 6',
+	'platformName': 'iOS',
+	'platformVersion': '9.1',
+        # 'udid': 'bc41d7bbe35223441656630117358998015b5c8f',
         # 'app' : '/Users/chenchenzheng/Desktop/whistler.ipa',
         'app': PATH('../../apps/' + app),
         'bundleId':'com.ar-devices.whistler'
